@@ -51,7 +51,7 @@ def pomodoro_timer(work_minutes=25, break_minutes=5): #itu rin po pwidi mo palit
 def main():
     todo = ToDoList()
     while True:
-        print("\nOptions:")
+        print(BOLD + ITALIC, "\nOptions:", END)
         print("1. Add task")
         print("2. Mark task done")
         print("3. Show tasks")
