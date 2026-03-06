@@ -40,7 +40,7 @@ def pomodoro_timer(work_minutes=25, break_minutes=5): #itu rin po pwidi mo palit
             print(f"\r{label}: {mins:02d}:{secs:02d}", end="", flush=True)
             time.sleep(1)
         print(f"\n{label} finished!")
-        
+
     print("Starting Pomodoro: Work session") #ikaw po bahala oki? dagdagan mo session if gustu mu pu matagal mag aral.
     timer_thread(work_minutes, "Work") #ito copy paste mo lang yan matik na yan ang layout niyan ay yung two lines ok? modify mo nalang if gustu mu
     print("Starting break")
